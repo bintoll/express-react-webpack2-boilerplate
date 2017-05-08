@@ -8,13 +8,12 @@ Simple minimal boilerplate with express, react, webpack2 and eslint.
 [eslint](https://github.com/eslint/eslint) - simple, not strict config.<br />
 [React](https://github.com/facebook/react) - It is implemented as a separate project in express project with it's own eslint config and package.json ```./client```<br />
 [Babel](https://github.com/babel/babel) - presets: "es2015", "stage-0", "react"; plugins: "transform-runtime", "transform-class-properties"<br />
-<br /><br />
+<br />
 ```
 Important! This is two projects in one: 1.Server code in root; 2.Client code in root/client. So they both have own dependencies and package files.
 ```
-<br /><br />
-### Installation
 <br />
+### Installation
 ```sh
 $ yarn install && cd client/ && yarn install  
 ```
@@ -22,9 +21,7 @@ or
 ```sh
 $ npm install && cd client/ && npm install  
 ```
-<br />
 ## Usage
-<br />
 To start dev server
 ```sh
 $ yarn dev  
