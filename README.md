@@ -12,9 +12,7 @@ Simple minimal boilerplate with express, react, webpack2 and eslint.
 ```
 Important! This is two projects in one: 1.Server code in root; 2.Client code in root/client. So they both have own dependencies and package files.
 ```
-<br />
-### Installation
-<br />
+## Installation
 ```sh
 $ yarn install && cd client/ && yarn install  
 ```
