@@ -66,7 +66,7 @@ $ npm run-script deploy
 After that you will get a buildServer folder in project root with server.js and package.json files. You should copy these files to server in one folder and run ```$ yarn install``` or ```$ npm install```. After the installation point server.js as entry file. 
 In client folder you would get buildClient directory, you also should copy it to the server. After that point index.html as entry file.
 
-## Remember! You will have to link client-side and server-side apps. If you use nginx you need proxy_pass 
+#### Remember! You will have to link client-side and server-side apps. If you use nginx you need proxy_pass 
 Here is an example
 ```
 # part of nginx config file of the client app, 9091 is an example port of server app
