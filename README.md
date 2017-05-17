@@ -61,7 +61,7 @@ $ yarn deploy
 or
 ```sh
 $ cd client
-$ npm deploy
+$ npm run-script deploy
 ```
 After that you will get a buildServer folder in project root with server.js and package.json files. You should copy these files to server in one folder and run ```$ yarn install``` or ```$ npm install```. After the installation point server.js as entry file. 
 In client folder you would get buildClient directory, you also should copy it to the server. After that point index.html as entry file.
