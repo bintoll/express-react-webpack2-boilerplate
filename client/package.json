@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "npm run lint; lsof -ti:3002 | xargs kill -9; env PORT=3002 react-scripts start",
+    "deploy": "rm -rf build && npm run build && mv -f build buildClient",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",

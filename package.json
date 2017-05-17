@@ -22,7 +22,8 @@
     "lint": "eslint ./app.js",
     "webpack-watch": "webpack -w",
     "express-server": "env PORT=3001 nodemon ./server.js",
-    "dev": "npm run lint; lsof -ti:3001 | xargs kill -9;lsof -ti:3000 | xargs kill -9; concurrently --kill-others  \"npm run webpack-watch\" \"npm run express-server\""
+    "dev": "npm run lint; lsof -ti:3001 | xargs kill -9;lsof -ti:3000 | xargs kill -9; concurrently --kill-others  \"npm run webpack-watch\" \"npm run express-server\"",
+    "deploy": "rm -rf ./buildServer && webpack && mkdir buildServer && cp server.js ./buildServer && cp package.json ./buildServer"
   },
   "dependencies": {
     "babel-loader": "^7.0.0",
@@ -36,7 +37,7 @@
     "jade": "~1.11.0",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2",
-    "webpack": "^2.5.0"
+    "webpack": "^2.5.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
