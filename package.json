@@ -15,8 +15,8 @@
   ],
   "homepage": "https://github.com/bintoll/express-react-webpack2-boilerplate",
   "bugs": {
-    "url" : "https://github.com/bintoll/express-react-webpack2-boilerplate/issues",
-    "email" : "sapronovkd@gmail.com"
+    "url": "https://github.com/bintoll/express-react-webpack2-boilerplate/issues",
+    "email": "sapronovkd@gmail.com"
   },
   "scripts": {
     "lint": "eslint ./app.js",
@@ -27,14 +27,18 @@
   },
   "dependencies": {
     "babel-loader": "^7.0.0",
-    "babel-polyfill": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
     "body-parser": "~1.17.1",
+    "bson": "^1.0.4",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "es6-promise": "^4.1.0",
     "express": "~4.15.2",
+    "fb": "^2.0.0",
     "isomorphic-fetch": "^2.2.1",
     "jade": "~1.11.0",
+    "mongodb": "^3.0.2",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2",
     "webpack": "^2.5.1"
